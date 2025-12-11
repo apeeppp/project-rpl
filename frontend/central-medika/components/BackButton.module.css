@@ -1,0 +1,29 @@
+/* BackButton.module.css */
+
+.backButton {
+  /* Posisi */
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+
+  /* Warna & Bentuk - DITAMBAHKAN !important */
+  background-color: #ff69b4 !important; /* Hot Pink */
+  color: #fff !important; /* Teks Putih */
+  border-radius: 999px; 
+  padding: 8px 16px;
+  border: none !important;
+  
+  /* Efek */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #e6559d !important; 
+  transform: translateY(-1px);
+}
